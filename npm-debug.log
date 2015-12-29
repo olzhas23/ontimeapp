@@ -1,0 +1,74 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'errorHandler' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json assert@1.3.0 assert is also the name of a node core module.
+5 warn package.json passport-local@0.1.6 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'errorHandler', null ]
+8 verbose cache add name=undefined spec="errorHandler" args=["errorHandler",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'errorHandler',
+9 verbose parsed url   path: 'errorHandler',
+9 verbose parsed url   href: 'errorHandler' }
+10 silly lockFile 4c227642-errorHandler errorHandler
+11 verbose lock errorHandler C:\Users\Olzhas\AppData\Roaming\npm-cache\4c227642-errorHandler.lock
+12 silly lockFile 4c227642-errorHandler errorHandler
+13 silly lockFile 4c227642-errorHandler errorHandler
+14 verbose addNamed [ 'errorHandler', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 2a2b7e08-errorHandler errorHandler@
+17 verbose lock errorHandler@ C:\Users\Olzhas\AppData\Roaming\npm-cache\2a2b7e08-errorHandler.lock
+18 silly addNameRange { name: 'errorHandler', range: '*', hasData: false }
+19 verbose request where is /errorHandler
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 455aacd1048d3033
+22 verbose url raw /errorHandler
+23 verbose url resolving [ 'https://registry.npmjs.org/', './errorHandler' ]
+24 verbose url resolved https://registry.npmjs.org/errorHandler
+25 verbose request where is https://registry.npmjs.org/errorHandler
+26 info trying registry request attempt 1 at 22:36:01
+27 verbose etag "4B4BHGE9V4QQ0FBIXN2ZFUC1Z"
+28 http GET https://registry.npmjs.org/errorHandler
+29 http 404 https://registry.npmjs.org/errorHandler
+30 silly registry.get cb [ 404,
+30 silly registry.get   { 'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '2',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Wed, 23 Dec 2015 03:36:01 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1450841760.940927,VS0,VE99' } ]
+31 silly lockFile 2a2b7e08-errorHandler errorHandler@
+32 silly lockFile 2a2b7e08-errorHandler errorHandler@
+33 error 404 Not Found
+33 error 404
+33 error 404 'errorHandler' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'ontimeinstall'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Windows_NT 6.2.9200
+35 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "errorHandler"
+36 error cwd c:\Users\Olzhas\desktop\projects\ontimeinstall
+37 error node -v v0.10.33
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]
